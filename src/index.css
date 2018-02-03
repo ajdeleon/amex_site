@@ -1,5 +1,57 @@
+.site-blue { color: #2C5B6D; }
+.bg-site-blue { background-color: #2C5B6D; }
+.b--site-blue { border-color: #2C5B6D; }
+
+.hover-site-blue:hover,
+.hover-site-blue:focus { color: #2C5B6D; }
+
+.hover-bg-site-blue:hover,
+.hover-bg-site-blue:focus { background-color: #2C5B6D; }
+
+
+.site-red { color: #BF2926; }
+.bg-site-red { background-color: #BF2926; }
+.b--site-red { border-color: #BF2926; }
+
+.hover-site-red:hover,
+.hover-site-red:focus { color: #BF2926; }
+
+.hover-bg-site-red:hover,
+.hover-bg-site-red:focus { background-color: #BF2926; }
+
+
+.site-light { color: #938082; }
+.bg-site-light { background-color: #938082; }
+.b--site-light { border-color: #938082; }
+
+.hover-site-light:hover,
+.hover-site-light:focus { color: #938082; }
+
+.hover-bg-site-light:hover,
+.hover-bg-site-light:focus { background-color: #938082; }
+
+
+.site-dark { color: #010B0C; }
+.bg-site-dark { background-color: #010B0C; }
+.b--site-dark { border-color: #010B0C; }
+
+.hover-site-dark:hover,
+.hover-site-dark:focus { color: #010B0C; }
+
+.hover-bg-site-dark:hover,
+.hover-bg-site-dark:focus { background-color: #010B0C; }
+
+
+.site-yellow { color: #D8BB4B; }
+.bg-site-yellow { background-color: #D8BB4B; }
+.b--site-yellow { border-color: #D8BB4B; }
+
+.hover-site-yellow:hover,
+.hover-site-yellow:focus { color: #D8BB4B; }
+
+.hover-bg-site-yellow:hover,
+.hover-bg-site-yellow:focus { background-color: #D8BB4B; }
+
 body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
