@@ -1,15 +1,20 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+
+import banner from '../assets/amex_banner.png'
 
 const Nav2 = () => {
   return (
     <nav className="db dt-l w-100 border-box pa3 ph5-l">
-      <a className="db dtc-l v-mid mid-gray link dim w-100 w-25-l tc tl-l mb2 mb0-l" href="#" title="Home">AMEX</a>
-      
+      <a className="db dtc-l v-mid link w-30 w-10-l mb2 mb0-l pointer center" href="/temp" title="Home">
+        <span><img src={banner} alt="AMEX Home"/></span>
+      </a>
       <div className="db dtc-l v-mid w-100 w-75-l tc tr-l">
-        <a className="link dim site-light f6 f5-l dib mr3 mr4-l" href="#" title="Home">Home</a>
-        <a className="link dim site-light f6 f5-l dib mr3 mr4-l" href="#" title="How it Works">Shows</a>
-        <a className="link dim site-light f6 f5-l dib mr3 mr4-l" href="#" title="Blog">Videos</a>
-        <a className="link dim site-light f6 f5-l dib" href="#" title="Contact">Members</a>
+        <Link className="link dim site-red f6 f4-l dib mr3 mr4-l" to="/temp" title="Home">Home</Link>
+        <Link className="link dim site-red f6 f4-l dib mr3 mr4-l" to="/colors" title="Shows">Shows</Link>
+        <Link className="link dim site-red f6 f4-l dib mr3 mr4-l" to="/media" title="Media">Media</Link>
+        <Link className="link dim site-red f6 f4-l dib mr3 mr4-l" to="/members" title="Members">Members</Link>
+        <Link className="link dim site-red f6 f4-l dib" to="/temp" title="Contact">Contact</Link>
       </div>
   </nav>
 
