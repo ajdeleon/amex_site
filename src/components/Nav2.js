@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-import banner from '../assets/amex_banner.png'
+import banner from '../assets/amex_banner_small.png'
 
 const Nav2 = () => {
   return (

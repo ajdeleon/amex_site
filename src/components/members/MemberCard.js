@@ -1,5 +1,5 @@
 import React from 'react'
-import temp from '../../assets/amex_banner.png'
+import temp from '../../assets/amex_banner_small.png'
 
 const MemberCard = ({ name, bio }) => {
   return (

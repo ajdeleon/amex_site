@@ -1,7 +1,7 @@
 import React from 'react'
 
-import litSketch from '../../assets/lit_march2.png'
-import banner from '../../assets/amex_banner.png'
+import litSketch from '../../assets/lit_march2_small.png'
+import banner from '../../assets/amex_banner_small.png'
 
 import ShowListItem from './ShowListItem'
 
