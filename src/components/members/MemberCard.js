@@ -1,12 +1,13 @@
 import React from 'react'
 import temp from '../../assets/amex_banner.png'
 
-const MemberCard = () => {
+const MemberCard = ({ name, bio }) => {
   return (
-    <div className="border-box w-20-l w-50-m 2-90-s ph2-ns outline bg-white dib ma2 center">
-        <div className="outline w4 mt2 center"><img src={temp} alt="tempMember" /></div>
-        <div className="f4 b tc mt2">FirstName LastName</div>
-        <div className="f6 tc mt1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio ex facere eligendi minima est sint odio tempore reiciendis consectetur, expedita ad cum explicabo ipsa rerum natus quibusdam, provident saepe nulla.</div>
+    <div className="dib ba b--site-dark br2 w-30-l w-40-m w-80-s ph2-ns bg-white mh1-ns mt4-ns mt2 ph3 ph4-l">
+        <div className="w4 mt2 center"><img src={temp} alt="tempMember" /></div>
+        <div className="f4 b tc mt2 site-blue">{name}</div>
+        <hr className="mw3 bb bw1 b--site-dark o-50" />
+        <div className="f6 tc mt1 site-light pb3">{bio}</div>
     </div>
   )
 }
