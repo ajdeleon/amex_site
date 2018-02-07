@@ -13,7 +13,7 @@ import Footer from './Footer'
 const App = () => {
   return (
   <div className="flex-column">
-    <BrowserRouter basename="">
+    <BrowserRouter>
       <React.Fragment>
         <Nav2 />
         <Route exact path="/" component={Home} />
