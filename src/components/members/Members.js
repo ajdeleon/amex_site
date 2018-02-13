@@ -1,23 +1,25 @@
 import React from 'react'
 import MemberCard from './MemberCard'
+import images from '../../assets'
+import I from '../I'
 
-const sampleBio = "Duis et libero non risus varius dapibus a nec nunc. Nulla sed massa in purus posuere hendrerit. Suspendisse id dictum justo, vitae accumsan justo. Nullam at ex rhoncus, posuere mauris malesuada, pretium justo. Ut porttitor eleifend velit, sodales sagittis augue euismod vitae. Etiam sit amet elit rutrum, accumsan ipsum ut, rhoncus nunc. Aenean eu massa vitae odio mollis pellentesque non a purus. Integer sapien mauris, feugiat quis massa tincidunt, pellentesque blandit ligula. Phasellus dignissim ipsum sollicitudin, tincidunt eros a, dignissim quam."
+const sampleBio = 'Duis et libero non risus varius dapibus a nec nunc. Nulla sed massa in purus posuere hendrerit. Suspendisse id dictum justo, vitae accumsan justo. Nullam at ex rhoncus, posuere mauris malesuada, pretium justo. Ut porttitor eleifend velit, sodales sagittis augue euismod vitae. Etiam sit amet elit rutrum, accumsan ipsum ut, rhoncus nunc. Aenean eu massa vitae odio mollis pellentesque non a purus. Integer sapien mauris, feugiat quis massa tincidunt, pellentesque blandit ligula. Phasellus dignissim ipsum sollicitudin, tincidunt eros a, dignissim quam.'
 
 const members = [
-  { name: "Quinton Alexander", bio: sampleBio},
-  { name: "Yvonne Anderson", bio: sampleBio},
-  { name: "Christina Anthony", bio: sampleBio},
-  { name: "Keane Cobb", bio: sampleBio},
-  { name: "Kelly Conrad", bio: sampleBio},
-  { name: "AJ de Leon", bio: sampleBio},
-  { name: "Remi Dhillon", bio: sampleBio},
-  { name: "Soumya Dhulekar", bio: sampleBio + sampleBio},
-  { name: "Chris Esperance", bio: sampleBio},
-  { name: "Marcely Jean-Pierre", bio: sampleBio},
-  { name: "James Knight", bio: sampleBio + sampleBio},
-  { name: "Kilo Martin", bio: sampleBio},
-  { name: "Christine Walden", bio: sampleBio},
-  { name: "Randie Welles", bio: sampleBio},
+  { name: 'Quinton Alexander', bio: sampleBio, img: images.smallBanner},
+  { name: 'Yvonne Anderson', bio: sampleBio, img: images.lit},
+  { name: 'Christina Anthony', bio: sampleBio, img: images.smallBanner},
+  { name: 'Keane Cobb', bio: sampleBio, img: images.smallBanner},
+  { name: 'Kelly Conrad', bio: <div><p>Kelly is thrilled and humbled to be a member of American Express. She holds a BA in Theatre Arts from Suffolk University, and has completed the improv curriculum at Philly Improv Theatre . Kelly is a member of PHIT Improv House Team Hooch, and Sketch House Team, The Decoy; she also performs weekly on Improv Team, Not Yet Rated.</p> <p>Other credits include <I>Dancing Wilde</I> with Boston Actor's Theatre, <I>The Great War Theatre Project</I> with TC Squared Theatre Company, <I>American Revolution</I> with Theater Unspeakable, and <I>House of Solitude Presents McNickel</I> at Philly Improv Theatre. You may also have seen her in Barbara Bush's <I>The Body Show</I>, and The Worst Generation's <I>Celebrity Insurance</I>. When not performing, Kelly enjoys bed, soup dumplings, and utilizing her Moviepass as much as possible.</p></div>, img: images.kelly},
+  { name: 'AJ de Leon', bio: sampleBio, img: images.smallBanner},
+  { name: 'Remi Dhillon', bio: sampleBio, img: images.smallBanner},
+  { name: 'Soumya Dhulekar', bio: sampleBio, img: images.smallBanner},
+  { name: 'Chris Esperance', bio: sampleBio, img: images.smallBanner},
+  { name: 'Marcely Jean-Pierre', bio: sampleBio, img: images.smallBanner},
+  { name: 'James Knight', bio: sampleBio, img: images.smallBanner},
+  { name: 'Kilo Martin', bio: sampleBio, img: images.smallBanner},
+  { name: 'Christine Walden', bio: sampleBio, img: images.smallBanner},
+  { name: 'Randie Welles', bio: sampleBio, img: images.smallBanner},
 ]
 
 const Members = () => {
