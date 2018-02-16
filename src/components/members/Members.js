@@ -19,7 +19,7 @@ const members = [
   { name: 'James Knight', bio: sampleBio, img: images.smallBanner},
   { name: 'Kilo Martin', bio: sampleBio, img: images.smallBanner},
   { name: 'Christine Walden', bio: sampleBio, img: images.smallBanner},
-  { name: 'Randie Welles', bio: sampleBio, img: images.smallBanner},
+  { name: 'Randie Welles', bio: <div><p>Randie is a performer and writer from West Philly. She has studied improv and sketch at Philly Improv Theater (PHIT) and the Upright Citizens Brigade. She has also studied acting at the Lantern Theater School. Randie can be found performing regularly with American Express (independent), The N Crowd (short-form, independent), HOOCH and Study Hall (PHIT improv house teams). She has been storyteller at Tell Me A Story, First Person Arts StorySlams, and The Moth. She'll also be hosting a very special love avoidance workshop during April 2018's Five Dollar Comedy Week (Good Good Comedy) and hopes you drop by to assess how good you are at being bad at love.</p><p>Anyway, while AMEX Comedy is like,"cool" or whatever, Randie's most enriching performance experiences were those of background acting for film and television while living in New Orleans. Her roles from that time include the enthusiastic "Mardi Gras reveler" in a first season episode of the unquestionably prestigious Matthew McConaughey, Woody Harrelson cop drama <I>True Detective</I>, the hype AF "Mardi Gras reveler" in the seminal Jesse Eisenberg vehicle <I>Now You See Me</I>, and the patient and perceptive "Liquor store worker" in the Will Ferrell, Zach Galifianakis blockbuster critical darling <I>The Campaign</I>. Oddly, however, all of her compelling work was left on the cutting room floor.</p></div>, img: images.smallBanner},
 ]
 
 const Members = () => {
