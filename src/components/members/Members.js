@@ -15,7 +15,7 @@ const members = [
   //{ name: 'Remi Dhillon', bio: sampleBio, img: images.smallBanner},
   { name: 'Soumya Dhulekar', bio: <div>Soumya Dhulekar is a comedian and illustrator. She makes comics and animations, and does stand-up. Her comics have been featured on Catapult and in various comic anthologies. Her latest illustration can be seen in the comic anthology Divide & Conquer, coming soon from McFarland Publishing in 2018. </div>, img: images.soumya},
   //{ name: 'Chris Esperance', bio: sampleBio, img: images.smallBanner},
-  //{ name: 'Marcely Jean-Pierre', bio: sampleBio, img: images.smallBanner},
+  { name: 'Marcely Jean-Pierre', bio: <div><p>Marcely Jean-Pierre is a Philly-based improviser, writer, and performer from Willingboro, New Jersey. He currently directs PHIT house team (In Space), performs with PHIT house team Dutch, and is a head writer and performer for American Express Comedy. </p><p>Among his many comedic inspirations are Eddie Murphy, Dave Chappelle, Key and Peele, Steve Carell, In Living Color, SNL, silly children are swell as well... Marcely also sometimes rhymes things unintentionally and has a background in writing and performing spoken word poetry. He is also social worker by day and occasionally sleeps at night. You can also find Marcely in da club, bottle full of bub, AND co-hosting "Hollywood Shuffle" once a month at PHIT.</p></div>, img: images.marcely},
   //{ name: 'James Knight', bio: sampleBio, img: images.smallBanner},
   //{ name: 'Kilo Martin', bio: sampleBio, img: images.smallBanner},
   //{ name: 'Christine Walden', bio: sampleBio, img: images.smallBanner},

@@ -4,6 +4,7 @@ import kelly from './kelly_large.png'
 import christina from './christina_small.png'
 import soumya from './soumya_small.png'
 import aj from './aj_small.png'
+import marcely from './marcely_small.png'
 
 export default {
   smallBanner,
@@ -11,5 +12,6 @@ export default {
   kelly,
   christina,
   soumya,
-  aj
+  aj,
+  marcely
 }
