@@ -2,12 +2,15 @@ import React from 'react'
 
 const Colors = () => {
   return (
-    <div className="flex white h5">
-      <div className="flex-grow-1 tc ml4 pt2" style={{backgroundColor: '#2C5B6D'}}>This</div>
-      <div className="flex-grow-1 tc pt2" style={{backgroundColor: '#BF2926'}}>is</div>
-      <div className="flex-grow-1 tc pt2" style={{backgroundColor: '#938082'}}>the</div>
-      <div className="flex-grow-1 tc pt2" style={{backgroundColor: '#010B0C'}}>color</div>
-      <div className="flex-grow-1 tc mr4 pt2" style={{backgroundColor: '#D8BB4B'}}>scheme</div>
+    <div>
+      <div className="flex white h5">
+        <div className="flex-grow-1 tc ml4 pt2" style={{backgroundColor: '#2C5B6D'}}></div>
+        <div className="flex-grow-1 tc pt2" style={{backgroundColor: '#BF2926'}}></div>
+        <div className="flex-grow-1 tc pt2" style={{backgroundColor: '#938082'}}></div>
+        <div className="flex-grow-1 tc pt2" style={{backgroundColor: '#010B0C'}}></div>
+        <div className="flex-grow-1 tc mr4 pt2" style={{backgroundColor: '#D8BB4B'}}></div>
+      <div className="absolute z-1 tc w-100 h-100 pt5 f2 shadow-5">Welcome to Amex Comedy</div>
+      </div>
     </div>
   )
 }
