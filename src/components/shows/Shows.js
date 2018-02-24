@@ -6,7 +6,6 @@ import banner from '../../assets/amex_banner_small.png'
 import ShowListItem from './ShowListItem'
 
 const shows = [
-  { imgSource: banner, alt: "Family Business", showName: "Family Business", showDate: "2/23/18 - 10PM", location: "Philly Improv Theater", ticketLink: "https://phitcomedy.ticketleap.com/family-business-featuring-american-express-02-23-2018/" },
   { imgSource: litSketch, alt: "Most Lit Sketch Show", showName: "The Most Lit Sketch Show in the Planet", showDate: "3/2/18 - 7PM", location: "Good Good Comedy Theater", ticketLink: "https://www.facebook.com/events/202499530487421/" },
   { imgSource: banner, alt: "Family Business", showName: "Family Business", showDate: "3/23/18 - 10PM", location: "Philly Improv Theater", ticketLink: "https://www.phitcomedy.com/shows/" },
   { imgSource: banner, alt: "Family Business", showName: "Family Business", showDate: "4/27/18 - 10PM", location: "Philly Improv Theater", ticketLink: "https://www.phitcomedy.com/shows/" },
