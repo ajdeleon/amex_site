@@ -1,13 +1,13 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-import banner from '../assets/amex_banner_small.png'
+import images from '../assets'
 
 const Nav2 = () => {
   return (
     <nav className="db dt-l w-100 border-box pa3 ph5-l">
       <a className="db dtc-l v-mid link w5 w-10-l mb2 mb0-l pointer center dim" href="/" title="Home">
-        <span><img src={banner} alt="AMEX Home"/></span>
+        <span><img src={images.smallBanner} alt="AMEX Home"/></span>
       </a>
       <div className="db dtc-l v-mid w-100 w-75-l tc tr-l">
         <Link className="link dim site-red f6 f4-l dib mr3 mr4-l" to="/" title="Home">Home</Link>

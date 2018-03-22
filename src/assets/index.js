@@ -6,9 +6,11 @@ import soumya from './soumya_small.png'
 import aj from './aj_small.png'
 import marcely from './marcely_small.png'
 import kilo from './kilo_small.png'
+import charmCity from './charm_city.png'
 
 export default {
   smallBanner,
+  charmCity,
   lit,
   kelly,
   christina,
