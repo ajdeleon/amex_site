@@ -1,6 +1,6 @@
 {
   "short_name": "AMEX Site",
-  "name": "American Express Improve Website",
+  "name": "American Express Improv",
   "icons": [
     {
       "src": "favicon.ico",
@@ -9,7 +9,7 @@
     }
   ],
   "start_url": "./index.html",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "display": "fullscreen",
+  "theme_color": "#938082",
+  "background_color": "#BF2926"
 }
