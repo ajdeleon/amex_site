@@ -5,7 +5,7 @@ import images from '../../assets'
 
 const shows = [
   { imgSource: images.smallBanner, alt: "Family Business", showName: "Family Business", showDate: "4/27/18", showTime:"10PM", location: "Philly Improv Theater", ticketLink: "https://www.phitcomedy.com/shows/" },
-  { imgSource: images.charmCity, alt: "Charm City Comedy Project", showName: "Charm City Comedy Project", showDate: "4/5/18", showTime:"10PM", location: <a className="site-red link b dim" href='https://www.facebook.com/zissimosbar/'>Zissimos Bar</a>, ticketLink: "https://www.charmcitycomedyproject.com/festival" },
+  { imgSource: images.charmCity, alt: "Charm City Comedy Project", showName: "Charm City Comedy Project", showDate: "5/5/18", showTime:"10PM", location: <a className="site-red link b dim" href='https://www.facebook.com/zissimosbar/'>Zissimos Bar</a>, ticketLink: "https://www.charmcitycomedyproject.com/festival" },
   { imgSource: images.smallBanner, alt: "Family Business", showName: "Family Business", showDate: "5/25/18", showTime:"10PM", location: "Philly Improv Theater", ticketLink: "https://www.phitcomedy.com/shows/" },
 ]
 
