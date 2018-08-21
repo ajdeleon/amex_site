@@ -12,19 +12,20 @@ import Footer from './Footer'
 
 const App = () => {
   return (
-  <div className="flex-column">
-    <BrowserRouter>
-      <React.Fragment>
-        <Nav2 />
-        <Route exact path="/" component={Home} />
-        <Route exact path="/shows" component={Shows} />
-        <Route exact path="/members" component={Members} />
-        <Route exact path="/media" component={Media} />
-        <Route exact path="/contact" component={Contact} />
-        <Footer />
-      </React.Fragment>
-    </BrowserRouter>
-  </div>)
+    <div className="flex-column">
+      <BrowserRouter>
+        <React.Fragment>
+          <Nav2 />
+          <Route exact path="/" component={Home} />
+          <Route exact path="/shows" component={Shows} />
+          <Route exact path="/members" component={Members} />
+          <Route exact path="/media" component={Media} />
+          <Route exact path="/contact" component={Contact} />
+          <Footer />
+        </React.Fragment>
+      </BrowserRouter>
+    </div>
+  )
 }
 
 export default App

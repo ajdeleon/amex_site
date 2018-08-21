@@ -5,26 +5,82 @@ import images from '../../assets'
 
 const shows = [
   {
-    imgSource: images.charmCity,
-    alt: 'Charm City Comedy Project',
-    showName: 'Charm City Comedy Project',
-    showDate: '5/5/18',
+    imgSource: images.smallBanner,
+    alt: 'Family Business',
+    showName: 'Family Business',
+    showDate: '8/24/18',
     showTime: '10PM',
-    location: (
-      <a
-        className="site-red link b dim"
-        href="https://www.facebook.com/zissimosbar/"
-      >
-        Zissimos Bar
-      </a>
-    ),
-    ticketLink: 'https://www.charmcitycomedyproject.com/festival',
+    location: 'Philly Improv Theater',
+    ticketLink: 'https://www.phitcomedy.com/shows/',
+  },
+  {
+    imgSource: images.realAmericaBadge,
+    alt: 'Fringe Festival: Real America',
+    showName: 'Real America',
+    showDate: '9/12/18',
+    showTime: '8:30PM',
+    location: 'Philly Improv Theater',
+    ticketLink: 'https://fringearts.com/event/real-america/',
+  },
+  {
+    imgSource: images.realAmericaBadge,
+    alt: 'Fringe Festival: Real America',
+    showName: 'Real America',
+    showDate: '9/13/18',
+    showTime: '8:30PM',
+    location: 'Philly Improv Theater',
+    ticketLink: 'https://fringearts.com/event/real-america/',
+  },
+  {
+    imgSource: images.realAmericaBadge,
+    alt: 'Fringe Festival: Real America',
+    showName: 'Real America',
+    showDate: '9/14/18',
+    showTime: '8:30PM',
+    location: 'Philly Improv Theater',
+    ticketLink: 'https://fringearts.com/event/real-america/',
+  },
+  {
+    imgSource: images.realAmericaBadge,
+    alt: 'Fringe Festival: Real America',
+    showName: 'Real America',
+    showDate: '9/15/18',
+    showTime: '5:30PM',
+    location: 'Philly Improv Theater',
+    ticketLink: 'https://fringearts.com/event/real-america/',
+  },
+  {
+    imgSource: images.realAmericaBadge,
+    alt: 'Fringe Festival: Real America',
+    showName: 'Real America',
+    showDate: '9/15/18',
+    showTime: '8:30PM',
+    location: 'Philly Improv Theater',
+    ticketLink: 'https://fringearts.com/event/real-america/',
   },
   {
     imgSource: images.smallBanner,
     alt: 'Family Business',
     showName: 'Family Business',
-    showDate: '5/25/18',
+    showDate: '9/28/18',
+    showTime: '10PM',
+    location: 'Philly Improv Theater',
+    ticketLink: 'https://www.phitcomedy.com/shows/',
+  },
+  {
+    imgSource: images.smallBanner,
+    alt: 'Family Business',
+    showName: 'Family Business',
+    showDate: '10/30/18',
+    showTime: '10PM',
+    location: 'Philly Improv Theater',
+    ticketLink: 'https://www.phitcomedy.com/shows/',
+  },
+  {
+    imgSource: images.smallBanner,
+    alt: 'Family Business',
+    showName: 'Family Business',
+    showDate: '12/28/18',
     showTime: '10PM',
     location: 'Philly Improv Theater',
     ticketLink: 'https://www.phitcomedy.com/shows/',

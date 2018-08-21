@@ -6,16 +6,16 @@ import soumya from './soumya_small.png'
 import aj from './aj_small.png'
 import marcely from './marcely_small.png'
 import kilo from './kilo_small.png'
-import charmCity from './charm_city.png'
+import realAmericaBadge from './real_america_badge.png'
 
 export default {
   smallBanner,
-  charmCity,
   lit,
   kelly,
   christina,
   soumya,
   aj,
   marcely,
-  kilo
+  kilo,
+  realAmericaBadge,
 }
