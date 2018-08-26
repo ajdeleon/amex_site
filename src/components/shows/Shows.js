@@ -5,15 +5,6 @@ import images from '../../assets'
 
 const shows = [
   {
-    imgSource: images.smallBanner,
-    alt: 'Family Business',
-    showName: 'Family Business',
-    showDate: '8/24/18',
-    showTime: '10PM',
-    location: 'Philly Improv Theater',
-    ticketLink: 'https://www.phitcomedy.com/shows/',
-  },
-  {
     imgSource: images.realAmericaBadge,
     alt: 'Fringe Festival: Real America',
     showName: 'Real America',
