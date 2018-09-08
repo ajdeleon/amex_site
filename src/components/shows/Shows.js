@@ -62,6 +62,15 @@ const shows = [
     imgSource: images.smallBanner,
     alt: 'Family Business',
     showName: 'Family Business',
+    showDate: '10/05/18',
+    showTime: '11PM',
+    location: 'Brick Theater NYC',
+    ticketLink: 'https://web.ovationtix.com/trs/cal/122?sitePreference=normal',
+  },
+  {
+    imgSource: images.smallBanner,
+    alt: 'Family Business',
+    showName: 'Family Business',
     showDate: '10/30/18',
     showTime: '10PM',
     location: 'Philly Improv Theater',
@@ -81,7 +90,12 @@ const shows = [
 const Shows = () => {
   this.renderList = () => {
     return shows.map(show => {
-      return <ShowListItem {...show} key={show.alt + show.showDate} />
+      return (
+        <ShowListItem
+          {...show}
+          key={show.alt + show.showDate + show.showTime}
+        />
+      )
     })
   }
 
